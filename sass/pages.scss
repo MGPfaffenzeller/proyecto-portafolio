@@ -1,0 +1,12 @@
+.hero {
+  @include flex-center;
+  flex-direction: column;
+  min-height: 80vh;
+  text-align: center;
+  color: white;
+
+  h1 {
+    @include responsive-text(2rem, 3rem);
+    font-weight: 700;
+  }
+}

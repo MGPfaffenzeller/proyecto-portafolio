@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+ <link rel="stylesheet" href="../css/style.css">
+
+  <!-- Intertar Bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <!-- Intertar Bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Insertar logo como icono -->
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+  
+  <!-- Insertar tipografia -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <!-- Menú -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">By Micaela</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./sobremi.html">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./proyectos.html">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./habilidades.html">Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- Contenido de la página -->
+  <main>
+  <section class="py-5">
+    <div class="container">
+      <h1 class="fw-bold text-center mb-5">Contacto</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-8 card shadow-sm p-4">
+          <form>
+            <div class="mb-3">
+              <label for="firstname" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="firstname" required>
+            </div>
+            <div class="mb-3">
+              <label for="lastname" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="lastname" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+<!-- Pie de página -->
+  <footer class="text-white text-center py-4">
+    <p class="mb-1"> &copy; 2025 Pfaffenzeller Micaela. Todos los derechos reservados.</p>
+    <p class="mb-1">Seguime en:</p> 
+    <a href="https://www.instagram.com/mica_pfaffenzeller" class="bi bi-instagram"></a>
+    <a href="https://www.facebook.com/miku.pfaffenzeller" class="bi bi-facebook"></a>
+    <a href="https://www.linkedin.com/in/micaela-gheraldine-pfaffenzeller" class="bi bi-linkedin"></a>
+    <a href="https://github.com/MGPfaffenzeller" class="bi bi-github"></a>
+</footer>
+
+<!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
