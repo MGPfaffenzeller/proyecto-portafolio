@@ -1,0 +1,72 @@
+.habilidades {
+  text-align: center;
+  padding: 50px 20px;
+
+  p {
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+  }
+
+  .skills-progress {
+    max-width: 800px;
+    margin: 0 auto;
+
+    .skill-item {
+      margin-bottom: 25px;
+      text-align: left;
+
+      span {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+
+      .progress-bar {
+        background: #e6e6e6;
+        border-radius: 20px;
+        overflow: hidden;
+
+        .progress {
+          height: 25px;
+          line-height: 25px;
+          text-align: right;
+          padding-right: 10px;
+          color: white;
+          font-weight: bold;
+          border-radius: 20px;
+          transition: width 1s ease-in-out;
+        }
+
+        .html {
+          width: 80%;
+          background: #d302fd;
+          color: #000;
+        }
+
+        .css {
+          width: 75%;
+          background: #ed95e9;
+          color: #000;
+        }
+
+        .js {
+          width: 65%;
+          background: #f76af7;
+          color: #000;
+        }
+
+        .sass {
+          width: 70%;
+          background: #cc6699;
+          color: #000;
+        }
+
+        .bootstrap {
+          width: 85%;
+          background: #dba4ec;
+          color: #000;
+        }
+      }
+    }
+  }
+}

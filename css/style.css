@@ -4,10 +4,13 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
+  height: 100%;
   font-family: "Libertinus Serif", serif;
   background-color: #fdfdfd;
   color: #333;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -85,6 +88,68 @@ footer a:hover {
   .hero h1 {
     font-size: 3rem;
   }
+}
+
+.habilidades {
+  text-align: center;
+  padding: 50px 20px;
+}
+.habilidades p {
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+}
+.habilidades .skills-progress {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.habilidades .skills-progress .skill-item {
+  margin-bottom: 25px;
+  text-align: left;
+}
+.habilidades .skills-progress .skill-item span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.habilidades .skills-progress .skill-item .progress-bar {
+  background: #e6e6e6;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.habilidades .skills-progress .skill-item .progress-bar .progress {
+  height: 25px;
+  line-height: 25px;
+  text-align: right;
+  padding-right: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: width 1s ease-in-out;
+}
+.habilidades .skills-progress .skill-item .progress-bar .html {
+  width: 80%;
+  background: #d302fd;
+  color: #000;
+}
+.habilidades .skills-progress .skill-item .progress-bar .css {
+  width: 75%;
+  background: #ed95e9;
+  color: #000;
+}
+.habilidades .skills-progress .skill-item .progress-bar .js {
+  width: 65%;
+  background: #f76af7;
+  color: #000;
+}
+.habilidades .skills-progress .skill-item .progress-bar .sass {
+  width: 70%;
+  background: #cc6699;
+  color: #000;
+}
+.habilidades .skills-progress .skill-item .progress-bar .bootstrap {
+  width: 85%;
+  background: #dba4ec;
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
